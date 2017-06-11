@@ -1,0 +1,39 @@
+{
+  "name": "angular2-basic-setup",
+  "version": "1.0.0",
+  "description": "anuglarv2 basic setup for project ",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrent \"npm run tsc:w\" \"npm run lite\" ",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "lite": "lite-server",
+    "typings": "typings",
+    "postinstall": "typings install"
+  },
+  "keywords": [
+    "angular2",
+    "javascripts"
+  ],
+  "author": "Ankit Rana",
+  "license": "ISC",
+  "dependencies": {
+    "@angular/common": "^4.1.3",
+    "@angular/compiler": "^4.1.3",
+    "@angular/core": "^4.1.3",
+    "@angular/http": "^4.1.3",
+    "@angular/platform-browser": "^4.1.3",
+    "@angular/platform-browser-dynamic": "^4.1.3",
+    "@angular/router": "^4.1.3",
+    "@angular/upgrade": "^4.1.3",
+    "core-js": "^2.4.1",
+    "rxjs": "^5.4.0",
+    "systemjs": "^0.20.13",
+    "zone.js": "^0.8.12"
+  },
+  "devDependencies": {
+    "concurrently": "^3.4.0",
+    "lite-server": "^2.3.0",
+    "typescript": "^2.3.4"
+  }
+}
